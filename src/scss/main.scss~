@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  font-size: 60%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #5e5e5e;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+a:hover {
+  color: #1180CF;
+}
+
+ul.linklist.virtical {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.linklist.virtical li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul.linklist.virtical li span.bullet {
+  height: 20px;
+  width: 25px;
+  background-color: #e5e5e5;
+  float: left;
+  line-height: 20px;
+  margin-right: 4px;
+  text-align: center;
+  font-size: 1.4em;
+  color: #222222;
+}
+
+div.list-container {
+  width: 230px;
+}
+
+h4, h2 {
+  color: #444444;
+  font-size: 1.8em;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: #222222;
+}
+
+ul.taglist {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.taglist li {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+ul.taglist li span.tag {
+  height: 22px;
+  width: auto;
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  line-height: 22px;
+  margin-right: 4px;
+  text-align: center;
+  font-size: 1.4em;
+  color: #f7e3d2;
+  border-radius: 5px;
+  border: 1px solid #5e5e5e;
+  background-color: #b65a00;
+}
+
+ul.taglist li span.tag:hover {
+  cursor: pointer;
+  background-color: #6b3910;
+}
+
+ul.taglist.horizontal li {
+  display: inline;
+}
